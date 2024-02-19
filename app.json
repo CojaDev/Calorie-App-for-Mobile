@@ -1,13 +1,37 @@
 {
   "expo": {
     "scheme": "acme",
+    "icon": "./images/logo.png",
     "web": {
-      "bundler": "metro"
+      "bundler": "metro",
+      "favicon": "./images/logo.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "name": "kalorije",
-    "slug": "kalorije"
+    "slug": "kalorije",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4232df09-a2db-49b3-ac6f-d843c865f972"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4232df09-a2db-49b3-ac6f-d843c865f972"
+    },
+    "android": {
+      "package": "com.coja04.kalorije",
+      "adaptiveIcon": {
+        "foregroundImage": "./images/logo3.png",
+        "backgroundColor": "#A7C957"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.coja04.kalorije"
+    }
   }
 }
