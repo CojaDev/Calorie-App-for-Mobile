@@ -44,7 +44,7 @@ This Android app, built with React Native, is designed to help users manage thei
 
 ## Screenshots
 
-_Add screenshots of your app here to showcase its features._
+![Calorie App](cal.png)
 
 ## Contributing
 
