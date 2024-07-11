@@ -19,11 +19,11 @@ This Android app, built with React Native, is designed to help users manage thei
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/mobile-calorie-app.git
+    git clone https://github.com/CojaDev/Calorie-App-for-Mobile.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd mobile-calorie-app
+    cd Calorie-App-for-Mobile-app
     ```
 3. Install the dependencies:
     ```sh
@@ -31,7 +31,7 @@ This Android app, built with React Native, is designed to help users manage thei
     ```
 4. Run the app on an Android emulator or device:
     ```sh
-    npm run android
+    expo start
     ```
 
 ## Usage
